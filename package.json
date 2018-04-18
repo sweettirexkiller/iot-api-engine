@@ -1,0 +1,24 @@
+{
+  "name": "iot-api-engine",
+  "version": "1.0.0",
+  "description": "Simple mqtt iot api engine",
+  "main": "index.js",
+  "dependencies": {
+    "mosca": "^2.8.1",
+    "pino": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweettirexkiller/iot-engine.git"
+  },
+  "author": "Peter Yankievich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweettirexkiller/iot-engine/issues"
+  },
+  "homepage": "https://github.com/sweettirexkiller/iot-engine#readme"
+}
