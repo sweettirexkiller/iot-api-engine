@@ -28,4 +28,7 @@ require('./mqtt');
 
 
 // Expose app
-exports = module.exports = server;
+module.exports = {
+    server,
+    app
+};
