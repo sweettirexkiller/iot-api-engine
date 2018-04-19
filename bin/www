@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs
+
 const startup = require('../server/app.js')
 const config = require('../server/config/environment');
 
