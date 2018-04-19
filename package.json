@@ -32,5 +32,8 @@
   "scripts": {
     "start": "nodemon --exec babel-node -- bin/www"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
