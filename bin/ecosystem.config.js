@@ -1,6 +1,11 @@
 module.exports = {
-    apps: [{
-        name: 'app',
-        script: 'bin/www'
-    }]
+    apps: [
+        {
+            name: 'mosca',
+            script: 'mosca -c broker/index.js -v | pino'
+        },
+        {
+            name: 'express',
+            script: 'bin/www'
+        }]
 };
