@@ -1,0 +1,7 @@
+const server = require('../server/app.js')
+const config = require('../server/config/environment');
+
+// Start server
+server.listen(config.port, config.ip, function() {
+    console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
+});
