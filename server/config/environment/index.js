@@ -22,7 +22,7 @@ var all = {
     port: process.env.PORT || 9000,
 
     // Server IP
-    ip: process.env.IP || '0.0.0.0',
+    ip: process.env.IP || '207.154.210.131',
 
     // Secret for session, you will want to change this and make it an environment variable
     secrets: {

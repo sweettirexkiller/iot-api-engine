@@ -5,7 +5,7 @@
 module.exports = {
     // MongoDB connection options
     mongo: {
-        uri: 'mongodb://admin:admin123@ds241055.mlab.com:41055/iotfwjs'
+        uri: 'mongodb://localhost:27017/api'
     },
 
     mqtt: {
