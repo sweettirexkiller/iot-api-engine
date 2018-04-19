@@ -2,7 +2,8 @@ module.exports = {
     apps: [
         {
             name: 'mosca',
-            script: 'bin/mqtt'
+            script: 'bin/mqtt',
+            interpreter:"sh"
         },
         {
             name: 'express',
