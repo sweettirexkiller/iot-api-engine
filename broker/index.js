@@ -1,5 +1,5 @@
-let SSL_KEY = '/etc/letsencrypt/keys/0000_key-certbot.pem';
-let SSL_CERT = '/etc/letsencrypt/ssl-dhparams.pem';
+let SSL_KEY = __dirname + '/key.pem';
+let SSL_CERT = __dirname + '/certificate.pem';
 let MONGOURL = 'mongodb://iot';
 
 module.exports = {
