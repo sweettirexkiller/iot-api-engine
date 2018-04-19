@@ -2,7 +2,7 @@ module.exports = {
     apps: [
         {
             name: 'mosca',
-            script: 'mosca -c broker/index.js -v | pino'
+            script: 'bin/mqtt'
         },
         {
             name: 'express',
