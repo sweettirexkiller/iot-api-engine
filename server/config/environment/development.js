@@ -9,7 +9,7 @@ module.exports = {
     },
 
     mqtt: {
-        host: process.env.EMQTT_HOST || '127.0.0.1',
+        host: process.env.EMQTT_HOST || 'localhost',
         clientId: 'API_Server_Dev',
         port: 8883
     }
