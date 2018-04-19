@@ -1,6 +1,6 @@
 let SSL_KEY = __dirname + '/key.pem';
 let SSL_CERT = __dirname + '/certificate.pem';
-let MONGOURL = 'mongodb://iot';
+let MONGOURL = 'mongodb://localhost:27017/iot';
 
 module.exports = {
     id: 'broker',
